@@ -37,8 +37,15 @@ Bằng chứng:
 ```
 EnglishStudy/
 ├── VocabSpike/       Project Xcode đo 3 thứ Apple không công bố — CHẠY TRƯỚC TIÊN
-└── data-pipeline/    Pipeline Python dựng dataset từ vựng Anh–Việt
+├── data-pipeline/    Pipeline Python dựng dataset từ vựng Anh–Việt
+└── docs/PLAN.md      Plan đầy đủ + kết quả nghiên cứu 15 app đối thủ
 ```
+
+### [`docs/PLAN.md`](./docs/PLAN.md) — plan & nghiên cứu
+
+Tài liệu dài nhất trong repo, gồm: khảo sát 15 app đối thủ (giá, rating, điểm mạnh
+yếu), ràng buộc kỹ thuật WidgetKit kèm trích dẫn tài liệu Apple, bảng giấy phép từng
+nguồn dữ liệu, 28 đầu việc chia 6 giai đoạn, và bảng rủi ro kèm cách xử lý.
 
 ### [`VocabSpike/`](./VocabSpike) — đo đạc trên iPhone thật
 
@@ -129,6 +136,8 @@ Nội dung trong [`data-pipeline/out/ATTRIBUTIONS.md`](./data-pipeline/out/ATTRI
 - [ ] App chính: SwiftData + CloudKit, FSRS, flashcard, lịch sử
 - [ ] Widget sản phẩm: lock screen + home screen + AppIntent
 - [ ] Hoàn thiện, TestFlight, App Store
+
+Chi tiết từng đầu việc: [`docs/PLAN.md`](./docs/PLAN.md).
 
 Kiến trúc dự kiến: **SwiftUI + SwiftData + CloudKit** (sync iCloud không cần backend),
 target **iOS 17+**, thuật toán lặp lại ngắt quãng **FSRS** (MIT), phát âm bằng

@@ -5,13 +5,13 @@
 | Hạng mục | Trạng thái |
 |---|---|
 | Nghiên cứu thị trường & khả năng kỹ thuật | ✅ Xong |
-| Mã nguồn 3 spike (`files/VocabSpike/`) | ✅ Viết xong, **chờ bạn chạy trên iPhone thật** |
-| Data pipeline (`files/data-pipeline/`) | ✅ Xong và đã chạy kiểm chứng |
+| Mã nguồn 3 spike ([`VocabSpike/`](../VocabSpike)) | ✅ Viết xong, **chờ bạn chạy trên iPhone thật** |
+| Data pipeline ([`data-pipeline/`](../data-pipeline)) | ✅ Xong và đã chạy kiểm chứng |
 | Dataset mẫu 1.092 từ Anh–Việt | ✅ Đã sinh ra, kiểm tra toàn vẹn OK |
 | App chính + widget sản phẩm | ⏳ Chờ kết quả spike |
 
-**Việc bạn cần làm tiếp theo:** copy `files/VocabSpike/` sang Mac, cài lên iPhone,
-để chạy 3–5 ngày. Xem hướng dẫn trong `files/VocabSpike/README.md`.
+**Việc bạn cần làm tiếp theo:** clone repo về Mac, mở thư mục [`VocabSpike/`](../VocabSpike),
+cài lên iPhone và để chạy 3–5 ngày. Xem hướng dẫn trong [`VocabSpike/README.md`](../VocabSpike/README.md).
 
 ---
 
@@ -117,7 +117,7 @@ VocabWidget.xcodeproj
 
 ### Giai đoạn 1 — Spike kỹ thuật (BẮT BUỘC làm trước khi xây sản phẩm)
 
-> ✅ **Mã nguồn đã viết xong** tại `files/VocabSpike/` — gồm cả 3 spike trong một
+> ✅ **Mã nguồn đã viết xong** tại [`VocabSpike/`](../VocabSpike) — gồm cả 3 spike trong một
 > project duy nhất, có sẵn `project.yml` cho XcodeGen và hướng dẫn chi tiết.
 > Chỉ còn bước chạy trên iPhone thật.
 
@@ -127,7 +127,7 @@ VocabWidget.xcodeproj
 
 ### Giai đoạn 2 — Dữ liệu & nội dung
 
-> ✅ **Pipeline đã xong và chạy kiểm chứng** tại `files/data-pipeline/`.
+> ✅ **Pipeline đã xong và chạy kiểm chứng** tại [`data-pipeline/`](../data-pipeline).
 > Kết quả với `--limit 1200`: **1.092 từ** có đủ nghĩa Anh + Việt, **98%** có IPA,
 > **78%** có câu ví dụ, SQLite 512 KB. Chạy `python build.py --limit 5000` để dựng bộ thật.
 
@@ -186,7 +186,7 @@ VocabWidget.xcodeproj
 
 ## 7. Bước tiếp theo ngay
 
-1. **Copy `files/VocabSpike/` sang Mac → cài lên iPhone → để chạy 3–5 ngày.**
+1. **Clone repo về Mac → mở [`VocabSpike/`](../VocabSpike) → cài lên iPhone → để chạy 3–5 ngày.**
    Đây là đường găng: kết quả quyết định chu kỳ xoay từ và giới hạn độ dài nghĩa.
 2. Trong lúc chờ spike: chạy `python build.py --limit 5000` để dựng dataset đầy đủ,
    rồi soát `out/needs-review.txt` và `out/missing-vietnamese.txt`.
