@@ -1,0 +1,7 @@
+# Chỉ loại trừ cache HTTP (35 MB, tự sinh lại được).
+# Dataset trong out/ ĐƯỢC commit để dùng ngay trên máy khác.
+out/http-cache.sqlite
+
+.venv/
+__pycache__/
+*.pyc

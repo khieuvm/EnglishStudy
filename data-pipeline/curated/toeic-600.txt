@@ -1,0 +1,43 @@
+# name: TOEIC 600 (mẫu)
+# description: Từ vựng nền tảng cho mục tiêu TOEIC 600. ĐÂY CHỈ LÀ FILE MẪU - hãy tự biên soạn danh sách của bạn.
+# cefr: B1
+#
+# ⚠️ LƯU Ý BẢN QUYỀN
+# Các danh sách "600 từ TOEIC" / "3000 từ IELTS" trôi nổi trên mạng hầu hết là
+# bản BIÊN SOẠN CÓ BẢN QUYỀN của nhà xuất bản. Copy nguyên si vào app thương mại
+# là vi phạm. Hãy tự chọn từ dựa trên đề thi thật bạn đã làm, hoặc dùng nguồn có
+# giấy phép rõ ràng.
+#
+# Định dạng: mỗi dòng một từ, chữ thường. Dòng bắt đầu bằng # là chú thích.
+# Từ nào chưa có trong dataset sẽ được pipeline báo ra màn hình khi chạy.
+
+account
+agreement
+apply
+approve
+budget
+client
+confirm
+contract
+deliver
+department
+employee
+expense
+invoice
+manager
+negotiate
+offer
+order
+payment
+position
+purchase
+quality
+receipt
+refund
+report
+request
+revenue
+schedule
+shipment
+supply
+training

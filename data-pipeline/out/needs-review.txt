@@ -1,0 +1,27 @@
+# Từ cần soát loại từ thủ công
+# vi.wiktionary thiếu mục của loại từ phổ biến nhất, nên nghĩa xuất ra
+# tuy nhất quán Anh-Việt nhưng không phải nghĩa chính của từ.
+# Cột: từ | loại từ đã chọn | loại từ phổ biến hơn | nghĩa EN của loại từ đó
+
+first	adv (chọn, freq=58)	adj (phổ biến hơn, freq=232)	preceding all others in time or space or degree
+use	noun (chọn, freq=90)	verb (phổ biến hơn, freq=603)	put into service; make work or employ for a particular purpose or for its inherent or natural purpose
+find	noun (chọn, freq=0)	verb (phổ biến hơn, freq=159)	come upon, as if by accident; meet with
+help	noun (chọn, freq=20)	verb (phổ biến hơn, freq=183)	give help or assistance; be of service
+cause	noun (chọn, freq=18)	verb (phổ biến hơn, freq=110)	give rise to; cause to happen or occur, not always intentionally
+buy	noun (chọn, freq=0)	verb (phổ biến hơn, freq=102)	obtain by purchase; acquire by means of a financial transaction
+shot	verb (chọn, freq=0)	noun (phổ biến hơn, freq=24)	the act of firing a projectile
+inside	noun (chọn, freq=4)	adv (phổ biến hơn, freq=19)	within a building
+hate	noun (chọn, freq=9)	verb (phổ biến hơn, freq=50)	dislike intensely; feel antipathy or aversion towards
+cover	noun (chọn, freq=9)	verb (phổ biến hơn, freq=35)	provide with a covering or cause to be covered
+daily	adj (chọn, freq=0)	adv (phổ biến hơn, freq=37)	every day; without missing a day
+base	adj (chọn, freq=6)	verb (phổ biến hơn, freq=75)	use as a basis for; found on
+tomorrow	adv (chọn, freq=3)	noun (phổ biến hơn, freq=15)	the day after today
+welcome	adj (chọn, freq=4)	verb (phổ biến hơn, freq=15)	accept gladly
+finish	noun (chọn, freq=3)	verb (phổ biến hơn, freq=44)	come or bring to a finish or an end
+pro	noun (chọn, freq=1)	adj (phổ biến hơn, freq=5)	in favor of (an action or proposal etc.)
+notice	noun (chọn, freq=8)	verb (phổ biến hơn, freq=39)	discover or determine the existence, presence, or fact of
+produce	noun (chọn, freq=2)	verb (phổ biến hơn, freq=69)	bring forth or yield
+raise	noun (chọn, freq=3)	verb (phổ biến hơn, freq=33)	raise the level or amount of something
+mention	noun (chọn, freq=8)	verb (phổ biến hơn, freq=62)	make reference to
+institute	noun (chọn, freq=1)	verb (phổ biến hơn, freq=9)	set up or lay the groundwork for
+handle	noun (chọn, freq=4)	verb (phổ biến hơn, freq=41)	be in charge of, act on, or dispose of

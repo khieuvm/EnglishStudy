@@ -1,0 +1,23 @@
+# Thư viện Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Cache Wiktionary (35 MB, tự sinh lại được bằng `python build.py`)
+data-pipeline/out/http-cache.sqlite
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+.swiftpm/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
